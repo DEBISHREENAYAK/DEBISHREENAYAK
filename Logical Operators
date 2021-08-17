@@ -1,1 +1,32 @@
 
+a=2
+b=3
+
+c=a & b #and 
+print(c)
+
+d=a | b #or
+print(d)
+
+e=a!=b
+print(e)
+
+
+
+#you can also get input at runtime
+#eg:
+
+a=int(input("enter a number "))
+b=int(input("enter a number "))
+
+c=a & b #and 
+print(c)
+
+d=a | b #or
+print(d)
+
+e=a!=b
+print(e)
+
+
+
