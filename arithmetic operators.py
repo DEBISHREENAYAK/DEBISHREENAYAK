@@ -17,3 +17,5 @@ g=a-b
 print(g)
 
 print("devi"+"10")
+
+print(100*"Its the right time  ")
