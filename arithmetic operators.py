@@ -15,3 +15,5 @@ print(f)
 
 g=a-b
 print(g)
+
+print("devi"+"10")
