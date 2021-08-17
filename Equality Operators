@@ -1,0 +1,6 @@
+print(10==20)
+print(10!=20)
+
+
+print("python"==100)
+print("python"=='python')
