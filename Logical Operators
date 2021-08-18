@@ -2,14 +2,17 @@
 a=2
 b=3
 
-c=a & b #and 
+c=a>b and b<a #and
 print(c)
 
-d=a | b #or
+d=not a and not b #or
 print(d)
 
-e=a!=b
+e=not(a>4)
 print(e)
+
+f=a<4 and b>6
+print(f)
 
 
 
@@ -19,14 +22,21 @@ print(e)
 a=int(input("enter a number "))
 b=int(input("enter a number "))
 
-c=a & b #and 
+
+a=2
+b=3
+
+c=a>b and b<a #and
 print(c)
 
-d=a | b #or
+d=not a and not b #or
 print(d)
 
-e=a!=b
+e=not(a>4)
 print(e)
+
+f=a<4 and b>6
+print(f)
 
 
 
