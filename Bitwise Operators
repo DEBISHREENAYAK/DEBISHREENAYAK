@@ -1,1 +1,28 @@
+#you can also get input at runtime
+
+a=int(input("enter a number "))
+b=int(input("enter a number "))
+
+
+a,b=2,3
+
+c=a & b #and
+print(c)
+
+d=a|b #or
+print(d)
+
+e=a^b
+print(e)
+
+f=~a #complement
+print(f)
+
+g=a>>4 #right shit
+print(g)
+
+f=a<<4 #left shit
+print(f)
+
+
 
